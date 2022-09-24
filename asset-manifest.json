@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/profilePage/static/css/main.59ffdb05.css",
+    "main.js": "/profilePage/static/js/main.f8fa554d.js",
+    "static/media/Rectangle 90.png": "/profilePage/static/media/Rectangle 90.a7c69397581efe6dbfed.png",
+    "index.html": "/profilePage/index.html",
+    "main.59ffdb05.css.map": "/profilePage/static/css/main.59ffdb05.css.map",
+    "main.f8fa554d.js.map": "/profilePage/static/js/main.f8fa554d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59ffdb05.css",
+    "static/js/main.f8fa554d.js"
+  ]
+}
