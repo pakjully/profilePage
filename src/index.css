@@ -1,13 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color:#23252C;
+  font-family: 'Inter', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* section {
+background-color: #23252C;
+} */
+
+.container {
+  max-width: 317px;
+  height: 780px;
+  background-color: #F5F5F5;
+  margin: auto;
+  margin-top: 44px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* Styles for Intro box */
+
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.intro-title {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  color: #F47D27;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+.intro-address {
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  color: #4A4E74;
+  margin-top: 9px;
+}
+
+/* Styles of Contacts box */
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.contacts-email, .contacts-linked {
+  width: 115px;
+  height: 34px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  box-shadow: 0px 0px 20px 0px rgba(117, 117, 117, 0.1);
+}
+
+.contacts-email {
+  color: #374151;
+  background-color: white;
+  border: 1px solid #D1D5DB;
+  margin-left: 35px;
+}
+
+.contacts-linked {
+  color: white;
+  background-color: #297FE5;
+  border: 1px solid #297FE5;
+  margin-right: 35px;
+  line-height: 16px;
+}
+
+.contacts-email-img {
+  margin-right: 9px;
+}
+
+.contacts-linked-img {
+  margin-right: 9px;
+}
+
+/* Styles of Main content */
+
+.main {
+  max-width: 247px;
+  margin: 15px 0 20px 35px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+}
+
+p {
+  font-size: 10.24px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 15.36px;
+  color: #4A4E74;
+}
+
+/* Styles of Footer */
+
+footer {
+  background-color:#D5D4D8;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.footer-img-twit {
+  margin-left:73px;
+}
+
+.footer-img-git {
+  margin-right: 72px;
 }
